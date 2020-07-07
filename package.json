@@ -6,7 +6,7 @@
   "version": "1.0.0",
   "main": "main.js",
   "dependencies": {
-    "electron": "^4.0.5",
+    "electron": "^7.2.4",
     "electron-packager": "^13.0.1",
     "install": "^0.12.2",
     "node": "^11.10.0",
@@ -17,7 +17,7 @@
     "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/images/wings.icns --prune=true --out=release-builds"
   },
   "devDependencies": {
-    "electron": "^4.0.5",
+    "electron": "^7.2.4",
     "electron-packager": "^13.0.1"
   },
   "description": "This MacOS application is a cPanel client for Icarus Labs customers.",
